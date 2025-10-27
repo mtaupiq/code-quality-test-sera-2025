@@ -1,6 +1,4 @@
-import Order from "../models/Order";
-import Product from "../models/Product";
-import User from "../models/User";
+import { Order, Product, User } from "../models";
 
 export class OrderService {
   async createOrder(orderData: any) {

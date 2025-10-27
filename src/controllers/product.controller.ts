@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import productService from "../services/productService";
+import productService from "../services/product.service";
 
 /**
  * Create a new product

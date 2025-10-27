@@ -1,9 +1,9 @@
 import express from "express";
 import bodyParser from "body-parser";
 import sequelize from "./config/database";
-import userRoutes from "./routes/userRoutes";
-import productRoutes from "./routes/product";
-import orderRoutes from "./routes/order.routes";
+import userRoutes from "./routes/user.route";
+import productRoutes from "./routes/product.route";
+import orderRoutes from "./routes/order.route";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
